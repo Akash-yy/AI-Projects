@@ -1,6 +1,6 @@
-# Oracle NLQ Studio v3 — The Real Thing
+# Oracle NLQ Studio
 
-## How it actually works (matches the Oracle blog exactly)
+## How it actually works 
 
 ```
 You type: "Show me top 10 employees by salary"
@@ -72,13 +72,3 @@ Open `frontend/index.html` in any browser (or serve via `python -m http.server 8
    - Shows results in the chat with an export option
 6. DML operations show a confirmation banner before executing
 
----
-
-## Files
-```
-backend/
-  app.py          # Flask + MCP Python SDK client + agentic loop
-  requirements.txt
-frontend/
-  index.html      # Complete chat UI (single file)
-```
