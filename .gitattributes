@@ -1,4 +1,4 @@
-### *.html linguist-vendored
+*.html linguist-vendored
 *.py linguist-detectable
 *.sql linguist-detectable
-*.html linguist-detectable
+###*.html linguist-detectable
